@@ -7,7 +7,7 @@ import  "./Cover.module.css";
 function Cover(){
     return(
         <div>
-            <Box sx={{position:"static", height:"480px" }}>
+            <Box sx={{position:"static", height:"480px", width:"100%", backgroundColor:"gray" }}>
 
                 <Card sx={{ position:"absolute", width:"528px", height:"308px", marginX:"-24px", marginY:"40px",   bgcolor:"white" }}>
 

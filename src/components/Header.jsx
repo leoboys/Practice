@@ -15,7 +15,7 @@ function Header(){
             <AppBar position="Fixed" sx={{backgroundColor:"white"}}>
                 <Toolbar>
                 <Logo  />
-                    <Typography sx={{flexGrow: 1, marginLeft:0 }}>
+                    <Typography sx={{ flexGrow: 1, marginLeft: 0 }}>
                     </Typography>
                     
                     <Button className={classes.normalButton} sx={{ color:"rgba(0, 48, 60, 1)",fontSize:"12px"}} >HOME</Button>

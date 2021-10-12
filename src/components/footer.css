@@ -1,0 +1,186 @@
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 256px;
+    background-color:indigo;
+    bottom: 0%;
+}
+
+.lg-foot{
+    color: white;
+    position: absolute;
+    width: 142.1px;
+    height: 35.15px;
+    left: 45px;
+    top: 47px;
+}
+
+.Link-about{
+    border: none;
+    color: white;
+    outline: none;
+    position: absolute;
+    height: 18px;
+    left: 34.72%;
+    right: 57.56%;
+    top: calc(50% - 18px/2 - 77px);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.231818px;
+}
+
+.Link-home{
+position: absolute;
+height: 16px;
+left: 30%;
+right: 52.69%;
+top: calc(50% - 16px/2 - 39px);
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+color: #FFFFFF;
+}
+
+.Link-abtus{
+position: absolute;
+height: 16px;
+left: 34%;
+right: 56.13%;
+top: calc(50% - 16px/2 - 3px);
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+color: #FFFFFF;
+}
+
+.Link-contact{
+position: absolute;
+height: 16px;
+left: 34.70%;
+right: 56.13%;
+top: calc(50% - 16px/2 + 33px);
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+color: #FFFFFF;
+}
+
+.Link-service{
+position: absolute;
+height: 18px;
+left: 58.85%;
+right: 35.06%;
+top: calc(50% - 18px/2 - 77px);
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+letter-spacing: -0.231818px;
+color: #FFFFFF;
+
+}
+
+.Link-product{
+position: absolute;
+height: 16px;
+left: 57%;
+right: 32.77%;
+top: calc(50% - 16px/2 - 39px);
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+color: #FFFFFF;
+}
+
+.Link-project{
+    position: absolute;
+    height: 16px;
+    left: 58%;
+    right: 34.04%;
+    top: calc(50% - 16px/2 - 3px);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.Link-follow{
+position: absolute;
+height: 18px;
+left: 81.14%;
+right: 12.52%;
+top: calc(50% - 18px/2 - 77px);
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+letter-spacing: -0.231818px;
+color: #FFFFFF;
+}
+
+.social{
+    position: absolute;
+width: 101.02px;
+height: 20px;
+left: 1260px;
+top: 85px;
+}
+
+.in-svg{
+position: absolute;
+left: 1400px;
+right: 0%;
+top: 85px;
+bottom: 0.09%;
+}
+
+.copyrights{
+position: absolute;
+height: 17px;
+left: 32.29%;
+right: 32.2%;
+top: calc(50% - 17px/2 + 100.5px);
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+text-align: center;
+letter-spacing: -0.204545px;
+color: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.5;
+}
+
+.line-svg{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 76.54%;
+bottom: 23.18%;
+width: 100%;
+background: rgba(255, 255, 255, 0.8);
+}
