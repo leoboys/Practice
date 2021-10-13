@@ -1,0 +1,88 @@
+.title{
+    position: static;
+    width: 253px;
+    height: 37px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+ 
+    color: #00303C;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 13px 0px;
+}
+
+.title2{
+    position: static;
+    width: 327px;
+    height: 41px;
+    left: 0px;
+    top: 50px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 41px;
+    color: #14A066;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 13px 0px;
+}
+
+.sub-title{
+    position: static;
+    width: 395px;
+    height: 40px;
+    left: 0px;
+    top: 104px;
+    /* solar/content */
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    
+    line-height: 20px;
+    color: #00303C;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 13px 0px;
+}
+
+
+
+.con-box{
+    position: absolute;
+    width: 50%;
+    height: 500px;
+    right: 0%;
+    background: #F6F6F6;
+    }
+
+.cover-box1{
+position: static;
+width:100%;
+height: 408px;
+left: 0px;
+top: 150px;
+margin-top: 50px;
+background:  url(coverpic.jpg ) ;
+}
+
+.cover-card{
+    position: absolute;
+    width: 592px;
+    height: 308px;
+    left: -24px;
+    top: 80px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
