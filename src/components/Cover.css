@@ -74,7 +74,9 @@ height: 408px;
 left: 0px;
 top: 150px;
 margin-top: 50px;
-background:  url(coverpic.jpg ) ;
+background:  url(coverpic.jpg ) no-repeat ;
+background-attachment: scroll;
+background-size: cover;
 }
 
 .cover-card{

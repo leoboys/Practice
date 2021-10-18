@@ -3,9 +3,13 @@
     width: 100%;
     height: 263px;
     left: 0px;
-    bottom: -2725px;
-    background: rgba(7, 34, 43, 0.5);
-    background-image: url(Rectangle.svg);
+    bottom: -2325px;
+    background-color: rgba(106, 147, 160, 0.5);
+    background-blend-mode:multiply ;
+    visibility: inherit;
+    background-image: url(Rectangle.svg) ;
+    background-attachment: scroll;
+    background-size: cover;
     color: white;
 }
 
@@ -37,18 +41,17 @@
 
 .Link-home{
 position: absolute;
+color: white;
 height: 16px;
 left: 30%;
 right: 52.69%;
 top: calc(50% - 16px/2 - 39px);
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
 font-size: 13px;
 line-height: 16px;
 /* identical to box height */
-color: #FFFFFF;
 }
 
 .Link-abtus{
@@ -144,10 +147,26 @@ color: #FFFFFF;
 }
 
 .social{
-    position: absolute;
+position: absolute;
 width: 101.02px;
 height: 20px;
-left: 1260px;
+left: 82%;
+top: 85px;
+}
+.twitter{
+position: absolute;
+left: 85%;
+right: 13.89%;
+top: 32.89%;
+bottom: 60.96%;
+color: #FFFFFF;
+}
+
+.instagram{
+    position: absolute;
+width: 20px;
+height: 20px;
+left: 88%;
 top: 85px;
 }
 

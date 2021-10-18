@@ -1,3 +1,4 @@
+import { Divider } from '@mui/material';
 import React from 'react';
 import './App.css';
 import Content from './components/Content';
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
      <Header />
      <Cover />
+     <Divider />
      <Content />
     <Footer />
     </div>

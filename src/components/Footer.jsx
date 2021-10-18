@@ -3,9 +3,13 @@ import { Box } from "@mui/system";
 import * as React from "react";
 import "./footer.css";
 import { ReactComponent as FLogo } from "./FootLogo.svg";
-import { ReactComponent as Social } from "./Social.svg";
-import { ReactComponent as IN } from "./in.svg";
+//import { ReactComponent as Social } from "./Social.svg";
+//import { ReactComponent as IN } from "./in.svg";
 import { ReactComponent as Line } from "./line.svg";
+import FacebookIcon from '@mui/icons-material/Facebook';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function Footer(){
     return(
@@ -14,8 +18,7 @@ function Footer(){
                 <TableRow>
                 <FLogo className="lg-foot" />
                 <td>
-                    <TableHead className="Link-about">About
-                    </TableHead>
+                    <TableHead className="Link-about">About </TableHead>
                     <Link className="Link-home">Home</Link>
                     <Link className="Link-abtus">About us</Link>
                     <Link className="Link-contact">Contact us</Link>
@@ -27,8 +30,12 @@ function Footer(){
                 </td>
                 <td>
                     <TableHead className="Link-follow">Follow Us</TableHead>
-                    <Social className="social"></Social>
-                    <IN className="in-svg"></IN>
+                  
+                    <FacebookIcon className="social" />
+                    <TwitterIcon className="twitter" />
+                    <InstagramIcon className="instagram" />
+                    <LinkedInIcon className="in-svg" />
+
                 </td>
                 </TableRow>
                 <Line className="line-svg"></Line>
