@@ -13,28 +13,28 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function Footer(){
     return(
-        <Container fixed>
+        <Container fixed id="foot">
             <Box className="footer" >
                 <TableRow>
                 <FLogo className="lg-foot" />
                 <td>
                     <TableHead className="Link-about">About </TableHead>
-                    <Link className="Link-home">Home</Link>
-                    <Link className="Link-abtus">About us</Link>
-                    <Link className="Link-contact">Contact us</Link>
+                    <Link href="#" sx={{color:"white"}} className="Link-home">Home</Link>
+                    <Link href="#" sx={{color:"white"}} className="Link-abtus">About us</Link>
+                    <Link href="#" sx={{color:"white"}} className="Link-contact">Contact us</Link>
                 </td>
                 <td>
                     <TableHead className="Link-service">Service </TableHead>
-                    <Link className="Link-product">Products</Link>
-                    <Link className="Link-project">Projects</Link>
+                    <Link href="#" sx={{color:"white"}} className="Link-product">Products</Link>
+                    <Link href="#" sx={{color:"white"}} className="Link-project">Projects</Link>
                 </td>
                 <td>
                     <TableHead className="Link-follow">Follow Us</TableHead>
                   
-                    <FacebookIcon className="social" />
-                    <TwitterIcon className="twitter" />
-                    <InstagramIcon className="instagram" />
-                    <LinkedInIcon className="in-svg" />
+                    <FacebookIcon href="#" className="social" />
+                    <TwitterIcon href="#" className="twitter" />
+                    <InstagramIcon href="#" className="instagram" />
+                    <LinkedInIcon href="#" className="in-svg" />
 
                 </td>
                 </TableRow>

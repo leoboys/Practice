@@ -1,0 +1,75 @@
+.contactbox{
+    position: absolute;
+width: 490px;
+height: 422px;
+left: 50%;
+top: 210.35px;
+
+background: #F6F6F6;
+}
+
+.layer{
+position: absolute;
+left: 20%;
+right: 15.57%;
+top: -18.89%;
+bottom: 0.36%;
+
+background: url(Layer_1_2_.png) no-repeat;
+}
+
+.con-head{
+position: absolute;
+width: 214px;
+height: 60px;
+left: 186px;
+top: 131px;
+font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 44px;
+line-height: 60px;
+/* identical to box height, or 136% */
+color: #004E66;
+}
+
+.con-para{
+    position: absolute;
+width: 275px;
+height: 20px;
+left: 162px;
+top: 195px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 143% */
+
+
+/* Gray 3 */
+
+color: #828282;
+
+}
+
+.name{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 15px 19px 11px 15px;
+position: static;
+width: 250px;
+height: 42px;
+left: 0px;
+top: 275px;
+background: #FCFCFC;
+border: 1px solid #CECECE;
+box-sizing: border-box;
+border-radius: 5px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 8px 0px;
+}

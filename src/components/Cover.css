@@ -41,20 +41,18 @@
     position: static;
     width: 395px;
     height: 40px;
-    left: 0px;
     top: 104px;
-    /* solar/content */
+    text-align: justify;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
-    
     line-height: 20px;
     color: #00303C;
     flex: none;
     order: 2;
     flex-grow: 0;
-    margin: 13px 0px;
+    margin: 19px 25px;
 }
 
 
